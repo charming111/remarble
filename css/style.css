@@ -67,8 +67,8 @@ button:focus {
 }
 
 .header__logo__img {
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
 }
 
 .header__logo__title {
@@ -91,4 +91,55 @@ button:focus {
 .header__menu__item.active {
     border: 1px solid var(--color-accent);
     border-radius: 4px;
+}
+
+/* home */
+
+#home {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.home__avatar {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2.5px solid var(--color-accent);
+}
+
+.home__title {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    font-weight: bold;
+}
+
+.home__title--strong {
+    color: var(--color-accent)
+}
+
+.home__description {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.home__contact {
+    display: inline-block;
+    background-color: var(--color-accent);
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    font-weight: bold;
+    color:var(--color-black);
+    border-radius: 4px;
+}
+
+.home__contact:hover {
+    height: 40px;
+    background-color: transparent;
+    color: var(--color-text);
+    outline: 2px solid var(--color-accent);
 }
